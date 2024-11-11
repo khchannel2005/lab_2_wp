@@ -1,0 +1,53 @@
+1. Bootstrap -  це потужний та популярний фреймворк для розробки веб-сайтів і веб-додатків. Він створений командою розробників у Twitter і надає широкий набір інструментів та компонентів, які спрощують процес створення сучасних, ефективних і мобільно-дружніх веб-інтерфейсів.
+Переваги:
+- Швидкість розробки: Bootstrap надає готові компоненти та стилі, які дозволяють розробникам ефективно створювати веб-сторінки без необхідності писати багато власного CSS і JavaScript коду.
+- Адаптивний дизайн: Bootstrap вбудовує адаптивний підхід до дизайну, що означає, що веб-сайт адаптується до різних роздільних здатностей і пристроїв, включаючи мобільні телефони, планшети і настільні комп'ютери.
+- Кросбраузерність: Bootstrap гарантує сумісність з багатьма популярними браузерами, що дозволяє веб-сайту виглядати однаково на різних платформах.
+- Величезна спільнота та підтримка: Bootstrap має велику спільноту розробників і надає багато ресурсів, таких як документація, розширення, теми і плагіни.
+
+2. Навігаційна панель, карточки, кнопки й алерти.
+
+3. На коді HTML: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+4. <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Burger Menu</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Brand</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+4. Chrome DevTools
+
